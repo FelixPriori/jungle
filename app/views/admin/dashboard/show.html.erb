@@ -9,7 +9,7 @@
   <tbody>
     <tr>
       <th>
-        <%= link_to @products_count, 'admin/products' %>
+        <%= @products_count %>
       </th>      
       <th>
         <%= @categories_count %>
@@ -17,3 +17,4 @@
     </tr>
   </tbody>
 </table>
+<%= link_to 'See All Items', 'admin/products', class: 'btn btn-info' %>

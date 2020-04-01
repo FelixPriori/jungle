@@ -9,12 +9,12 @@
   <tbody>
     <tr>
       <th>
-        <%= @products_count %>
+        <%= link_to @products_count, 'admin/products' %>
       </th>      
       <th>
-        <%= @categories_count %>
+        <%= link_to @categories_count, 'admin/categories' %>
       </th>
     </tr>
   </tbody>
 </table>
-<%= link_to 'See All Items', 'admin/products', class: 'btn btn-info' %>
+

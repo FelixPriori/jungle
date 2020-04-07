@@ -23,7 +23,6 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
       .find('.product:first-child')
       .find('a:first-child')
       .click
-
     expect(page).to have_css 'article.product-detail', count: 1
   end
 end

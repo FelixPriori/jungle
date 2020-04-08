@@ -40,20 +40,30 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Final Product
 
+Home page / products page:
+
 ![Home page](./docs/products.png)
 
+Categories' page:
 ![Category](./docs/category.png)
 
+About page:
 ![About](./docs/about.png)
 
+Register page:
 ![Register](./docs/register.png)
 
+Login page:
 ![Login](./docs/login.png)
 
+Cart page:
 ![Cart](./docs/cart.png)
 
+Order page:
 ![Order](./docs/orders.png)
 
+Admin products page:
 ![Admin Products](./docs/admin_products.png)
 
+Admin categories page:
 ![Admin Categories](./docs/admin_categories.png)

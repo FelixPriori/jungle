@@ -1,6 +1,10 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. 
+
+It uses RESTful routes, follows the MVC model, uses HTTP basic authentication for the admin login, password encryption for the users, postgresql and Active Record for database queries, and Capybara and Rspec for testing.
+
+This app was built by Felix Rioux Sabourin in the week 10 of the [Lighthouse Labs](https://www.lighthouselabs.ca/web-bootcamp) web develpment bootcamp.
 
 
 ## Setup
@@ -25,3 +29,31 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+* bcrypt 3.1.7
+
+## Test Dependencies
+
+* rspec-rails 3.5
+* capybara
+* poltergeist
+* database_cleaner
+
+## Final Product
+
+![Home page](./docs/products.png)
+
+![Category](./docs/category.png)
+
+![About](./docs/about.png)
+
+![Register](./docs/register.png)
+
+![Login](./docs/login.png)
+
+![Cart](./docs/cart.png)
+
+![Order](./docs/orders.png)
+
+![Admin Products](./docs/admin_products.png)
+
+![Admin Categories](./docs/admin_categories.png)
